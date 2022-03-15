@@ -33,6 +33,8 @@ export class OpenClientComponent implements OnInit {
 
   id = this.route.snapshot.paramMap.get('id');
   name:string =''
+  email:any
+
   ngOnInit(): void {
     this.getClient();
   }
@@ -41,7 +43,8 @@ export class OpenClientComponent implements OnInit {
     this.clientService.readClientId(this.id).subscribe((result) => {
       this.name = result.name
       this.client = result
-     
+      this.email = result.emails
+      console.log(this.email)     
 
     });
   }
