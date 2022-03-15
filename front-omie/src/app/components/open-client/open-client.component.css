@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    margin-bottom: 2%;
+   
+}
+ 
+.info{
+       margin-left: 2%; 
+       width: 100%;
+       color: white;
+       background-color: #3E4EAE;
+     
+}

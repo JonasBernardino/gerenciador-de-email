@@ -1,0 +1,21 @@
+.full-width-table {
+  width: 100%;
+}
+
+i.open {
+  color: #3e4fb2;
+  margin-right: 10px;
+}
+
+i.edit {
+  color: #d9cd26;
+  margin-right: 10px;
+}
+
+i.delete {
+  color: #e35e6b;
+}
+
+.action {
+  border: solid black 2px;
+}
